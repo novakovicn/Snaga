@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+ <rss version="2.0">
+ <channel>
+ <item>
+ <title>Novi Proizvod</title>
+ <description>Novi Brend Proizvoda</description>
+ <link>#</link>
+ </item>
+ <item>
+ <title>Novi Proizvod</title>
+ <description>Nova Bred Proizvoda</description>
+ <link>#</link>
+ </item>
+ </channel>
+ </rss> 

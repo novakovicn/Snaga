@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Saira Stencil One', cursive;
+    scroll-behavior: smooth;
+    background-color: #f4f7f6;
+
+}
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    
+}
+img{
+    max-width: 100%;
+}
+h1,h2,h3{
+    text-align: center;
+    font-family:'Audiowide', cursive;
+  
+}
+::placeholder{
+    color: #f4f7f6;
+}
+@keyframes fade{
+	from{opacity:0;}
+	to{opacity:1;}
+}
+#naslovna{
+    background-image: url("../img/pocetna4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 1000px;
+  
+}
+
+#uvod{
+    display: flex;
+    justify-content: center;
+    margin-top: 500px;
+    text-align: center;
+}
+#tekstUvod{
+    width: 50%;
+    
+   
+}
+#tekstUvod p{
+    font-size: 50px;
+    color: #f0f0f0;
+    font-family: 'Audiowide', cursive;
+    opacity: 0.9;
+    animation-name: fade;
+    animation-duration: 2s;
+}
+#tekstUvod i{
+    font-size: 60px;
+    color: #f0f0f0;
+    animation-name: fade;
+    animation-duration: 2s;
+}
+#logo{
+    text-align: center;
+   
+    font-family: 'Audiowide', cursive;
+    font-size: 30px;
+  
+   
+}
+#logo h1{
+    animation-name: fade;
+    animation-duration: 2s;
+}
+#logo h1 a{
+    color:#F4FFFE;
+}
+.meni{
+    text-align: center;
+  
+   font-family: 'Saira Stencil One', cursive;
+   font-size: 22px;
+ 
+  
+
+}
+.meni li a{
+    color: #F4FFFE;
+}
+.meni li a:hover{
+    color: #106964;
+}
+.meni ul li{
+    text-align: center;
+    display: inline-block;
+    padding: 15px 50px;
+}
+.meni ul li.active a {
+   color:#106964;
+}
+#meniDrugi{
+    background-color:#212121 ;
+}
+
+/*#slider{
+    background-image: url("../img/pocetna4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 760px;
+  
+}    
+*/
+#tekst{
+  
+    background-color:#f4f7f6;
+    display: flex;
+    justify-content: center;
+    background-image: url("../img/tegovi1.png");
+    background-position: center;
+   
+    margin-top: 25px;
+}
+#opis{
+    padding: 90px;
+    width: 50%;
+    background-color: #f0f0f0;
+}
+#opis p{
+    font-size: 20px;
+    text-align: justify;
+    padding: 0px 10px;
+    
+}
+#Osajtu h2{
+    font-size: 35px;
+    text-align: center;
+    margin: 20px auto;
+   
+}
+#podaci h2{
+    text-align: center;
+    font-size: 35px;
+    margin: 15px auto;
+   
+}
+#oprema{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+
+}
+.blok{
+   
+   background-color: #f4f7f6;
+   border-radius: 10px;
+   padding: 20px;
+
+}
+
+
+.blokGuma p{
+    text-align: center;
+    font-size:20px;
+    margin-top:10px;
+    padding: 3px;
+   
+}
+.blokGuma img{
+    border-radius: 10px;
+    opacity: 0.9;
+    animation-name: fade;
+    animation-duration: 2s;
+  
+}
+
+.blok p{
+    text-align: center;
+    font-size:20px;
+    margin-top:10px;
+    padding: 3px;
+    
+}
+.blok img{
+    border-radius: 10px;
+    opacity: 0.9;
+    animation-name: fade;
+    animation-duration: 2s;
+    
+}
+.slika{
+    position: relative;
+}
+.crta::after{
+    content: "";
+    width: 100px;
+    height: 5px;
+    display: block;
+    margin: 15px auto;
+    background-color: #444649;
+}
+.crta{
+    color: #444649;
+}
+.fa{
+    margin-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.fab{
+    margin-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+
+footer{
+    width: 100%;
+    background-color: #212121;
+    padding-top: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.ikonice ul li{
+    display: inline-block;
+    
+}
+#futer{
+    display: flex;
+    justify-content: space-around;
+}
+.navFuter{
+    width: 33%;
+    padding: 10px 0px;
+}
+#futerMeni ul li {
+    display: inline-block;
+    padding: 10px;
+}
+#futerMeni a{
+    color: #fff;
+    
+}
+#futerMeni li a:hover{
+    color: #106964;
+}
+#futerMeni ul li.active a{
+   color: #106964;
+}
+#navAutor{
+    
+    text-align: center;
+    font-size: 20px;
+    opacity: 0.5;
+}
+#navAutor a{
+    color:  #fff ;
+}
+#navAutor a:hover {
+    color: #106964;
+}
+
+#forma{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+input {
+    -webkit-transition: .5s;
+    transition: .5s;
+    width: 100%;
+    padding: 15px;
+    background-color:#7f877f;
+    border: 3px solid transparent;
+    margin: 10px 0;
+    resize: none;
+    border-radius: 5px;
+}
+#lista{
+
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+#ime{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around; 
+}
+textarea{
+    padding: 5px;
+    border: 3px solid transparent;
+    background-color:#7f877f;
+    border: 3px solid transparent;
+    border-radius: 5px;
+    width: 100%;
+    -webkit-transition: .5s;
+    transition: .5s;
+    
+}
+button{
+    padding: 10px;
+    border-radius: 5px;
+    margin:10px auto;
+    width: 30%;
+    background-color:#7f877f;
+    border: 3px solid transparent;
+    color: #f4f7f6;
+}
+button :hover{
+    color: #106964;
+    
+}
+
+#contact{
+    padding: 20px;
+    margin: 25px auto;
+    text-align: center;
+}
+#contact p{
+    text-align: center;
+    font-size: 20px;
+}
+#autor{
+    display: flex;
+    justify-content: space-around;
+}
+#AutorSlika img{
+    border-radius: 3%;
+    opacity: 0.9;
+    animation-name: fade;
+    animation-duration: 2s;
+}
+
+#AutorSlika {
+    width: 30%;
+    margin-top: 10px;
+    font-size: 17px;
+    padding: 0 10px;
+    
+
+}
+#AutorSlika p{
+    -webkit-transition: .5s;
+    transition: .5s;
+    text-align: justify;
+    margin-top: 15px;
+    color: #444649;
+}
+.naslov{
+    text-align: center;
+    font-size: 25px;
+    margin:40px ;
+    color: #444649;
+}
+.folija{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(25,25,25,0.5);
+    height: 100%;
+    overflow: hidden;
+    width: 0;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.folija a{
+    font-size: 30px;
+    white-space: nowrap;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-30%, -50%);
+}
+.slika:hover .folija{
+    width: 100%;
+}
+#video{
+    margin:10px auto;
+	width:80%;
+	
+}
+iframe{
+	width:100%;
+	height:600px;
+}
+.infoGuma {
+    margin: 10px auto;
+
+   
+}
+
+#okvir{
+    width: 80%;
+    
+    background-color:#dddddd;
+    margin: 10px auto;
+    border-radius: 5px;
+    box-shadow: 7px 7px 15px black;
+}
+#textOnama{
+    width: 45%;
+    margin-top: 30px;
+    text-align: justify;
+    line-height: 25px;
+}
+#textOnama p{
+    margin-top: 50px;
+    opacity: 0.9;
+    animation-name: fade;
+    animation-duration: 2s;
+    padding: 20px;
+}
+#oNamaGore{
+    display: flex;
+    justify-content: space-around;
+}
+#ONamaSlika {
+   
+    padding: 20px;
+}
+
